@@ -28,7 +28,7 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-Windows (PowerShell)
+Windows(PowerShell)
 
 ```powershell
 python -m venv venv
@@ -95,7 +95,7 @@ Filenames are *relative* to the corresponding split subfolder (e.g., `train/orig
 
 ---
 
-## 🧠 Models & key components (as implemented in the notebook)
+## 🧠 Models & key components(as implemented in the notebook)
 
 * **`MappedTwiceMixDataset`** — dataset class that reads mapping CSV rows and returns tensors for `(original, high-quality, low-quality)`.
 * **`VGGRanker`** — VGG16 backbone (from `torchvision`) followed by global pooling and an FC head producing a single scalar quality score.
