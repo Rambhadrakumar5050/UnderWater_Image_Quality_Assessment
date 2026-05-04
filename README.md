@@ -1,7 +1,7 @@
 # Underwater-Image-Quality-Ranking — TwiceMix
 
 📘 **TwiceMix — Image Quality Ranking**
-A reproducible Jupyter Notebook project that trains a VGG-based regressor to predict image quality using paired **High-Quality (HQ)** / **Low-Quality (LQ)** images and synthetic mixes (interpolations). This repository demonstrates on-the-fly mixing, dataset mapping of triplets, correlation-based evaluation (SRCC / KRCC), and an inference helper for single-image scoring.
+A reproducible Jupyter Notebook project that trains a VGG-based regressor to predict image quality using paired **High-Quality (HQ)** / **Low-Quality (LQ)** images and synthetic mixes (interpolations). This repository demonstrates on-the-fly  mixing, dataset mapping of triplets, correlation-based evaluation (SRCC / KRCC), and an inference helper for single-image scoring.
 
 ---
 
