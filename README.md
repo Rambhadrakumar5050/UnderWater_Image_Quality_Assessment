@@ -7,7 +7,7 @@ A reproducible Jupyter Notebook project that trains a VGG-based regressor to pre
 
 ## 🔍 Project overview
 
-This notebook builds a dataset of triplets `(original, high-quality, low-quality)` (CSV mapping), creates synthetic interpolations between HQ and LQ images using mixing coefficient `K`, and trains a `VGGRanker` model (VGG16 backbone + small FC head) to regress a scalar quality score. Evaluation measures rank-consistency across mixes using Spearman and Kendall correlation metrics. The notebook includes utilities to create mappings, train, checkpoint, evaluate, visualize, and infer.
+This notebook builds a dataset of triplets `(original, high-quality, low-quality)` (CSV mapping), creates synthetic interpolations between HQ and LQ images using mixing coefficient `K`, and trains a `VGGRanker` model (VGG16 backbone + small FC head) to regress a scalar quality score. Evaluation measures rank-consistency across mixes using Spearman and Kendall correlation metrics. The notebook  includes utilities to create mappings, train, checkpoint, evaluate, visualize, and infer.
 
 **Key goals**
 
